@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Beverage Labels", "04. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Character Stats", "05. Character Stats\05. Character Stats.csproj", "{7487C01F-9ED4-4A00-910E-1C6D7FF54989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharStatSecondSoluti", "CharStatSecondSoluti\CharStatSecondSoluti.csproj", "{891719A9-CA0E-4001-9727-8E564F1FB6B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7487C01F-9ED4-4A00-910E-1C6D7FF54989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7487C01F-9ED4-4A00-910E-1C6D7FF54989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7487C01F-9ED4-4A00-910E-1C6D7FF54989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891719A9-CA0E-4001-9727-8E564F1FB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891719A9-CA0E-4001-9727-8E564F1FB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891719A9-CA0E-4001-9727-8E564F1FB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{891719A9-CA0E-4001-9727-8E564F1FB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
