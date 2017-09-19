@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5567CEA-8CF0-4D3E-B1A1-3490C7130145}</ProjectGuid>
+    <ProjectGuid>{A30EA245-56A7-495B-AFE5-92BABECE2117}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Debit_Card_Number</RootNamespace>
-    <AssemblyName>_01.Debit_Card_Number</AssemblyName>
+    <RootNamespace>_02.Rectangle_Area</RootNamespace>
+    <AssemblyName>_02.Rectangle_Area</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01. Debit Card Number.cs" />
+    <Compile Include="02. Rectangle Area.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

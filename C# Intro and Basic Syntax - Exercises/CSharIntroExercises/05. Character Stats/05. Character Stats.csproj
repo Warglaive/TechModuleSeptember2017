@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5567CEA-8CF0-4D3E-B1A1-3490C7130145}</ProjectGuid>
+    <ProjectGuid>{7487C01F-9ED4-4A00-910E-1C6D7FF54989}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Debit_Card_Number</RootNamespace>
-    <AssemblyName>_01.Debit_Card_Number</AssemblyName>
+    <RootNamespace>_05.Character_Stats</RootNamespace>
+    <AssemblyName>_05.Character_Stats</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01. Debit Card Number.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
