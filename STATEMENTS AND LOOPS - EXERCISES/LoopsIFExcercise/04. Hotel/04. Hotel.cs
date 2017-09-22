@@ -16,7 +16,6 @@ namespace _04.Hotel
             var studioPrice = 0d;
             var doublePrice = 0d;
             var suitePrice = 0d;
-
             if (month == "May" || month == "October")
             {
                 studioPrice = 50;
@@ -38,46 +37,36 @@ namespace _04.Hotel
             //discount
             if (nightsCount > 7 && (month == "May" || month == "October"))
             {
-                studioPrice = (studioPrice * 0.95) * nightsCount; //5%
-                doublePrice *= nightsCount;
-                suitePrice *= nightsCount;
+                studioPrice = studioPrice * 0.95; //5%
             }
             else if (nightsCount > 14 && (month == "June" || month == "September"))
             {
-                doublePrice = (doublePrice * 0.90) * nightsCount; //10%
-                studioPrice *= nightsCount;
-                suitePrice *= nightsCount;
+                doublePrice = doublePrice * 0.90;
             }
             else if (nightsCount > 14 && (month == "July" || month == "August" || month == "December"))
             {
-                suitePrice = (suitePrice * 0.85) * nightsCount; //15%
-                doublePrice *= nightsCount;
-                studioPrice *= nightsCount;
+                suitePrice = suitePrice * 0.85;
             }
+
+            var endPriceStudio = studioPrice * nightsCount;
+            var endPriceDouble = doublePrice * nightsCount;
+            var endSuitePrice = suitePrice * nightsCount; 
+
             if (nightsCount > 7 && (month == "September" || month == "October"))  //maybe simple if, not else if
             {
                 if (month == "September")
                 {
-                    studioPrice = (studioPrice * nightsCount) - studioPrice;
-                    doublePrice *= nightsCount;
-                    suitePrice *= nightsCount;
+                    endPriceStudio -= studioPrice;
                 }
                 else
                 {
-                    studioPrice = (studioPrice * nightsCount) - studioPrice;
-                    doublePrice *= nightsCount;
-                    suitePrice *= nightsCount;
+                    endPriceStudio -= studioPrice;
                 }
             }
-            else
-            {
-                studioPrice *= nightsCount;
-                doublePrice *= nightsCount;
-                suitePrice *= nightsCount;
-            }
-            Console.WriteLine($"Studio: {studioPrice:f2} lv." +
-                Environment.NewLine + $"Double: {doublePrice:f2} lv." +
-                Environment.NewLine + $"Suite: {suitePrice:f2} lv.");
+            
+            Console.WriteLine($"Studio: {endPriceStudio:f2} lv." +
+                Environment.NewLine + $"Double: {endPriceDouble:f2} lv." +
+                Environment.NewLine + $"Suite: {endSuitePrice:f2} lv.");
         }
     }
 }

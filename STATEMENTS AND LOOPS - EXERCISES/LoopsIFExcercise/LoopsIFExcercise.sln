@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Choose a Drink", "01. Choose a Drink\01. Choose a Drink.csproj", "{B522E070-105C-4CEF-AFAA-8D8947499B8B}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Restaurant Discount", "03. Restaurant Discount\03. Restaurant Discount.csproj", "{606ACED3-336E-4A35-A7F4-EC17299EAB98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Hotel", "04. Hotel\04. Hotel.csproj", "{4A6CC7E8-40EF-4009-9821-AD7F01E6FAD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hotel2", "hotel2\hotel2.csproj", "{72F5E26D-1362-4175-8775-8331BA2E24F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4A6CC7E8-40EF-4009-9821-AD7F01E6FAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6CC7E8-40EF-4009-9821-AD7F01E6FAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6CC7E8-40EF-4009-9821-AD7F01E6FAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F5E26D-1362-4175-8775-8331BA2E24F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F5E26D-1362-4175-8775-8331BA2E24F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F5E26D-1362-4175-8775-8331BA2E24F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F5E26D-1362-4175-8775-8331BA2E24F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
