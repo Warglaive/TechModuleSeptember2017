@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.Hotel
 {
@@ -13,60 +9,56 @@ namespace _04.Hotel
             var month = Console.ReadLine();
             var nightsCount = int.Parse(Console.ReadLine());
 
-            var studioPrice = 0d;
-            var doublePrice = 0d;
-            var suitePrice = 0d;
+            var studioPerNight = 0d;
+            var doublePerNight = 0d;
+            var suitePerNight = 0d;
+            //
             if (month == "May" || month == "October")
             {
-                studioPrice = 50;
-                doublePrice = 65;
-                suitePrice = 75;
+                studioPerNight = 50;
+                doublePerNight = 65;
+                suitePerNight = 75;
             }
             else if (month == "June" || month == "September")
             {
-                studioPrice = 60;
-                doublePrice = 72;
-                suitePrice = 82;
+                studioPerNight = 60;
+                doublePerNight = 72;
+                suitePerNight = 82;
             }
             else if (month == "July" || month == "August" || month == "December")
             {
-                studioPrice = 68;
-                doublePrice = 77;
-                suitePrice = 89;
+                studioPerNight = 68;
+                doublePerNight = 77;
+                suitePerNight = 89;
             }
-            //discount
-            if (nightsCount > 7 && (month == "May" || month == "October"))
+            //discont
+            if ((month == "May" || month == "October") && nightsCount > 7)
             {
-                studioPrice = studioPrice * 0.95; //5%
+                studioPerNight = studioPerNight * 0.95;
             }
-            else if (nightsCount > 14 && (month == "June" || month == "September"))
+            else if ((month == "June" || month == "September") && nightsCount > 14)
             {
-                doublePrice = doublePrice * 0.90;
+                doublePerNight = doublePerNight * 0.90;
             }
-            else if (nightsCount > 14 && (month == "July" || month == "August" || month == "December"))
+            else if ((month == "July" || month == "August" || month == "December") && nightsCount > 14)
             {
-                suitePrice = suitePrice * 0.85;
+                suitePerNight = suitePerNight * 0.85;
             }
 
-            var endPriceStudio = studioPrice * nightsCount;
-            var endPriceDouble = doublePrice * nightsCount;
-            var endSuitePrice = suitePrice * nightsCount; 
+            var totalStudioPrice = studioPerNight * nightsCount;
+            var totalDoublePrice = doublePerNight * nightsCount;
+            var totalSuitePrice = suitePerNight * nightsCount;
 
-            if (nightsCount > 7 && (month == "September" || month == "October"))  //maybe simple if, not else if
+
+            if ((month == "September" || month == "October") && nightsCount > 7)
             {
-                if (month == "September")
-                {
-                    endPriceStudio -= studioPrice;
-                }
-                else
-                {
-                    endPriceStudio -= studioPrice;
-                }
+                totalStudioPrice = totalStudioPrice - studioPerNight;
             }
-            
-            Console.WriteLine($"Studio: {endPriceStudio:f2} lv." +
-                Environment.NewLine + $"Double: {endPriceDouble:f2} lv." +
-                Environment.NewLine + $"Suite: {endSuitePrice:f2} lv.");
+            Console.WriteLine($"Studio: {totalStudioPrice:f2} lv." +
+                Environment.NewLine +
+                $"Double: {totalDoublePrice:f2} lv." +
+                Environment.NewLine +
+                $"Suite: {totalSuitePrice:f2} lv.");
         }
     }
 }
