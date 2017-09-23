@@ -49,7 +49,6 @@ namespace _04.Hotel
             var totalDoublePrice = doublePerNight * nightsCount;
             var totalSuitePrice = suitePerNight * nightsCount;
 
-
             if ((month == "September" || month == "October") && nightsCount > 7)
             {
                 totalStudioPrice = totalStudioPrice - studioPerNight;
