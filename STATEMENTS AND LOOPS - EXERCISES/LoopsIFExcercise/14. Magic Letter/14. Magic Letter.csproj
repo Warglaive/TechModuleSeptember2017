@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C6E5817-46C3-42D4-BE0C-5B7837E88F2D}</ProjectGuid>
+    <ProjectGuid>{56B7A407-CDF9-447D-9078-EC9421D49C8A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12.Test_Numbers</RootNamespace>
-    <AssemblyName>_12.Test_Numbers</AssemblyName>
+    <RootNamespace>_14.Magic_Letter</RootNamespace>
+    <AssemblyName>_14.Magic_Letter</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="12. Test Numbers.cs" />
+    <Compile Include="14. Magic Letter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

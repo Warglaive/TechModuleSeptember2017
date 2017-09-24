@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7C6E5817-46C3-42D4-BE0C-5B7837E88F2D}</ProjectGuid>
+    <ProjectGuid>{BA23FE75-879A-4053-9869-EA8FCE46A2A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12.Test_Numbers</RootNamespace>
-    <AssemblyName>_12.Test_Numbers</AssemblyName>
+    <RootNamespace>_13.Game_of_Numbers</RootNamespace>
+    <AssemblyName>_13.Game_of_Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="12. Test Numbers.cs" />
+    <Compile Include="13. Game of Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
