@@ -13,33 +13,28 @@ namespace _11._5_Different_Numbers
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
 
-            for (int i = a; i < 5; i++)//first check if satisfied
+            var satisfied = false;
+
+            for (int i = a; i <= b; i++)//first check if satisfied
             {
-                if (a <= i)
+                i++;
+                for (int k = i; k < b; k++)
                 {
-                    for (int k = i; k < 5; k++)
+                    i++;
+                    for (int l = i; l < b; l++)
                     {
                         i++;
-                        if (k < i)
+                        for (int m = i; m <= b; m++)
                         {
-                            for (int l = i; l < 5; l++)
+                            i++;
+                            for (int v = i; v <= b; v++)
                             {
-                                i++;
-                                if (l < i)
-                                {
-                                    for (int m = i; m <= 5; m++)
-                                    {
-                                        if (m <= i)
-                                        {
-                                            Console.WriteLine($"{a} {i} {k} {l} {m}");
-                                        }
-                                    }
-                                }
+                                Console.WriteLine($"{a} {k} {l} {m} {v}");
                             }
                         }
                     }
                 }
-            }//then print
+            }
         }
     }
 }
