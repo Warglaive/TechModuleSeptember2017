@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _11._5_Different_Numbers
 {
@@ -12,24 +8,28 @@ namespace _11._5_Different_Numbers
         {
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
-
-            var satisfied = false;
-
-            for (int i = a; i <= b; i++)//first check if satisfied
+            if (b - a < 5)
             {
-                i++;
-                for (int k = i; k < b; k++)
+                Console.WriteLine("No");
+            }
+            else
+            {
+                for (int i = a; i <= b; i++)
                 {
-                    i++;
-                    for (int l = i; l < b; l++)
+                    for (int j = a; j <= b; j++)
                     {
-                        i++;
-                        for (int m = i; m <= b; m++)
+                        for (int k = a; k <= b; k++)
                         {
-                            i++;
-                            for (int v = i; v <= b; v++)
+                            for (int l = a; l <= b; l++)
                             {
-                                Console.WriteLine($"{a} {k} {l} {m} {v}");
+                                for (int m = a; m <= b; m++)
+                                {
+                                    if (j <= i || k <= j || l <= k || m <= l)
+                                    {
+                                        continue;
+                                    }
+                                    Console.WriteLine($"{i} {j} {k} {l} {m}");
+                                }
                             }
                         }
                     }
