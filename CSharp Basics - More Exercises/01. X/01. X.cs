@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _01.X
 {
@@ -11,12 +7,11 @@ namespace _01.X
         public static void Main()
         {
             var n = int.Parse(Console.ReadLine());
-            var formula = (n - 2) - 2;
             Console.Write('x');//firstLine
             Console.Write(new string(' ', n - 2));
             Console.WriteLine('x');
 
-            for (int i = 1; i < n / 2; i++)
+            for (int i = 1; i < n / 2; i++) //firstPart
             {
                 Console.Write(new string(' ', i));
                 Console.Write('x');
@@ -25,8 +20,24 @@ namespace _01.X
                 Console.WriteLine(new string(' ', i));
 
             }
+            //MidPart
+            for (int i = 0; i < 1; i++)
+            {
+                Console.Write(new string(' ', n / 2));
+                Console.WriteLine('x');
+            }
+            //secondPart
+            for (int i = n / 2 - 1; i >= 1; i--)
+            {
+                Console.Write(new string(' ', i));
+                Console.Write('x');
+                Console.Write(new string(' ', (n - 2) - i * 2));
+                Console.Write('x');
+                Console.WriteLine(new string(' ', i));
 
-            Console.Write('x');//lastLineine
+            }
+            //lastLineine
+            Console.Write('x');
             Console.Write(new string(' ', n - 2));
             Console.WriteLine('x');
         }
