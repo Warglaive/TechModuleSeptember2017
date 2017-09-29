@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.Photo_Gallery
 {
@@ -21,7 +17,7 @@ namespace _04.Photo_Gallery
             var width = int.Parse(Console.ReadLine());
             var height = int.Parse(Console.ReadLine());
 
-            var date = day.ToString() + '/'
+            var date = day.ToString("00") + '/'
                  + month.ToString("00") + '/'
                  + year.ToString("0000")
                  + ' '
@@ -34,11 +30,11 @@ namespace _04.Photo_Gallery
             Console.WriteLine("Date Taken: {0}", parseTD.ToString(format));
             if (size < 1000)
             {
-                Console.WriteLine("{0}B", size);
+                Console.WriteLine("Size: {0}B", size);
             }
             else if (size >= 1000 && size < 1000000)
             {
-                Console.WriteLine("{0}KB", size / 1000);
+                Console.WriteLine("Size: {0}KB", size / 1000);
             }
             else if (size >= 1000000)
             {
