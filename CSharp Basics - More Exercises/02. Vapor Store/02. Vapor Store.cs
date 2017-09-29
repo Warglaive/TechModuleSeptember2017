@@ -126,14 +126,10 @@ namespace _02.Vapor_Store
                 }
                 var remaining = totalMoney - moneySpend;
                 if (currentBallance <= 0)
-                {
                     Console.WriteLine("Out of money!");
-                }
                 else
-                {
                     Console.WriteLine($"Total spent: ${moneySpend:f2}. " +
                                       $"Remaining: ${remaining:f2}");
-                }
             }
         }
     }
