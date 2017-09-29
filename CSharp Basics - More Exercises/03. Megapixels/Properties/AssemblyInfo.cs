@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("02. Vapor Store")]
+[assembly: AssemblyTitle("03. Megapixels")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("02. Vapor Store")]
+[assembly: AssemblyProduct("03. Megapixels")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("832d802a-cdab-44f1-8dab-86eb6260ec00")]
+[assembly: Guid("0746e1da-6a44-454b-ad35-57459f82e2d7")]
 
 // Version information for an assembly consists of the following four values:
 //
