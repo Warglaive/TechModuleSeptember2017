@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. X", "01. X\01. X.csproj", "{DC12AB10-E9B1-4CE8-B4D4-B37C2468E4B3}"
 EndProject
@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Photo Gallery", "04. Ph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BPM Counter", "05. BPM Counter\05. BPM Counter.csproj", "{1C2CAFC3-5931-4B78-9348-ADB43126800E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{EB226C5B-3456-4FFC-9303-8D072188E274}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. DNA Sequences", "06. DNA Sequences\06. DNA Sequences.csproj", "{D29E042E-800B-4D43-A076-42ACD7CB6AB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{1C2CAFC3-5931-4B78-9348-ADB43126800E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2CAFC3-5931-4B78-9348-ADB43126800E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2CAFC3-5931-4B78-9348-ADB43126800E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB226C5B-3456-4FFC-9303-8D072188E274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB226C5B-3456-4FFC-9303-8D072188E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB226C5B-3456-4FFC-9303-8D072188E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB226C5B-3456-4FFC-9303-8D072188E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29E042E-800B-4D43-A076-42ACD7CB6AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29E042E-800B-4D43-A076-42ACD7CB6AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29E042E-800B-4D43-A076-42ACD7CB6AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29E042E-800B-4D43-A076-42ACD7CB6AB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
