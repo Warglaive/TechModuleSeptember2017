@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Centuries to Nanosecond
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Reversed chars", "09. Reversed chars\09. Reversed chars.csproj", "{F1E2FC58-172E-4FEE-ABD8-3661BEDB4491}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Convert Speed Units", "11. Convert Speed Units\11. Convert Speed Units.csproj", "{BCA07C20-731C-4A2B-9088-9689FCF46F18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F1E2FC58-172E-4FEE-ABD8-3661BEDB4491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E2FC58-172E-4FEE-ABD8-3661BEDB4491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E2FC58-172E-4FEE-ABD8-3661BEDB4491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
