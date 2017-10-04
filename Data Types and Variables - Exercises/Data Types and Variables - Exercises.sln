@@ -25,6 +25,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Reversed chars", "09. R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Convert Speed Units", "11. Convert Speed Units\11. Convert Speed Units.csproj", "{BCA07C20-731C-4A2B-9088-9689FCF46F18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Rectangle Properties", "12. Rectangle Properties\12. Rectangle Properties.csproj", "{87D9AF72-8B4E-4DC5-AF2C-9A3DA102AE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Vowel or Digit", "13. Vowel or Digit\13. Vowel or Digit.csproj", "{E300A806-B436-493A-8279-629EE262D871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Integer to Hex and Binary", "14. Integer to Hex and Binary\14. Integer to Hex and Binary.csproj", "{EB05E3E5-E11C-4C16-8837-1D7E3074F27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Fast Prime CheckerRefactor", "15. Fast Prime Checker\15. Fast Prime CheckerRefactor.csproj", "{154CF4A2-2811-4489-9F12-A3F3482633ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Comparing floats", "16. Comparing floats\16. Comparing floats.csproj", "{A87E7E72-9332-4B0E-877B-D70CB2F52E35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +85,26 @@ Global
 		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA07C20-731C-4A2B-9088-9689FCF46F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D9AF72-8B4E-4DC5-AF2C-9A3DA102AE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D9AF72-8B4E-4DC5-AF2C-9A3DA102AE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D9AF72-8B4E-4DC5-AF2C-9A3DA102AE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D9AF72-8B4E-4DC5-AF2C-9A3DA102AE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E300A806-B436-493A-8279-629EE262D871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E300A806-B436-493A-8279-629EE262D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E300A806-B436-493A-8279-629EE262D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E300A806-B436-493A-8279-629EE262D871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB05E3E5-E11C-4C16-8837-1D7E3074F27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB05E3E5-E11C-4C16-8837-1D7E3074F27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB05E3E5-E11C-4C16-8837-1D7E3074F27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB05E3E5-E11C-4C16-8837-1D7E3074F27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154CF4A2-2811-4489-9F12-A3F3482633ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154CF4A2-2811-4489-9F12-A3F3482633ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154CF4A2-2811-4489-9F12-A3F3482633ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154CF4A2-2811-4489-9F12-A3F3482633ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87E7E72-9332-4B0E-877B-D70CB2F52E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87E7E72-9332-4B0E-877B-D70CB2F52E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87E7E72-9332-4B0E-877B-D70CB2F52E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87E7E72-9332-4B0E-877B-D70CB2F52E35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
