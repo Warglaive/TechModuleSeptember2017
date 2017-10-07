@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _04.Numbers_in_Reversed_Order
 {
@@ -10,12 +7,18 @@ namespace _04.Numbers_in_Reversed_Order
     {
         public static void Main()
         {
-            var input = decimal.Parse(Console.ReadLine());
+            Reverse();
         }
 
-        public static decimal Reverse(decimal input)
+        public static void Reverse()
         {
-            var reversed = input.
+            var input = decimal.Parse(Console.ReadLine());
+            var reversedInput = new string(input.ToString().Reverse().ToArray()); //накрая записва с String, ne v char.
+            decimal reversedDecimal;
+            if (decimal.TryParse(reversedInput, out reversedDecimal))
+            {
+                Console.WriteLine(reversedDecimal);
+            }
         }
     }
 }
