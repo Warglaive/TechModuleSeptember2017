@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _06.Prime_Checker
 {
@@ -17,7 +13,7 @@ namespace _06.Prime_Checker
         public static bool isPrime(long number)
         {
             bool isPrime = true;
-            if (number<=1)
+            if (number <= 1)
             {
                 isPrime = false;
             }
