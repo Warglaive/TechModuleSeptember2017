@@ -10,13 +10,9 @@ namespace _06.Prime_Checker
             bool result = isPrime(n);
             Console.WriteLine(result);
         }
-        public static bool isPrime(long number)
+        private static bool isPrime(long number)
         {
-            bool isPrime = true;
-            if (number <= 1)
-            {
-                isPrime = false;
-            }
+            bool isPrime = !(number <= 1);
             for (int i = 2; i <= Math.Sqrt(number); i++)
             {
                 if (number % i == 0)
