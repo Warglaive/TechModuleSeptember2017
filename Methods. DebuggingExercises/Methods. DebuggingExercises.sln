@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Prime Checker", "06. Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Primes in Given Range", "07. Primes in Given Range\07. Primes in Given Range.csproj", "{DFECA764-9AC3-4A62-8E8F-E0DBBCF1B955}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Center Point", "08. Center Point\08. Center Point.csproj", "{9A5F7340-305B-4894-BE5D-54527549B77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Longer Line", "09. Longer Line\09. Longer Line.csproj", "{1951AD2E-53BA-4F9D-A49D-AD28B5A71CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{DFECA764-9AC3-4A62-8E8F-E0DBBCF1B955}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFECA764-9AC3-4A62-8E8F-E0DBBCF1B955}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFECA764-9AC3-4A62-8E8F-E0DBBCF1B955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5F7340-305B-4894-BE5D-54527549B77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5F7340-305B-4894-BE5D-54527549B77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5F7340-305B-4894-BE5D-54527549B77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5F7340-305B-4894-BE5D-54527549B77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1951AD2E-53BA-4F9D-A49D-AD28B5A71CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1951AD2E-53BA-4F9D-A49D-AD28B5A71CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1951AD2E-53BA-4F9D-A49D-AD28B5A71CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1951AD2E-53BA-4F9D-A49D-AD28B5A71CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

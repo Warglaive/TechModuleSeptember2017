@@ -7,9 +7,9 @@ namespace _07.Primes_in_Given_Range
     {
         public static void Main()
         {
-            isPrime();
+            IsPrime();
         }
-        public static void isPrime()
+        public static void IsPrime()
         {
             var listedResult = new List<long>();
             var startNumber = long.Parse(Console.ReadLine());
@@ -24,7 +24,7 @@ namespace _07.Primes_in_Given_Range
                         counter++;
                     }
                 }
-                if (counter==2)
+                if (counter == 2)
                 {
                     listedResult.Add(i);
                 }
