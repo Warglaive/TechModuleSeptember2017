@@ -3,91 +3,85 @@ using System.Linq;
 
 public class SequenceOfCommands_broken
 {
-    private const char ArgumentsDelimiter = ' ';
 
     public static void Main()
     {
-        int sizeOfArray = int.Parse(Console.ReadLine());
-
-        long[] array = Console.ReadLine()
-            .Split(ArgumentsDelimiter)
+        Console.ReadLine();
+        long[] numbers = Console.ReadLine()
+            .Split(' ')
             .Select(long.Parse)
             .ToArray();
+        string commandLine = Console.ReadLine();
 
-        string command = Console.ReadLine();
-
-        while (!command.Equals("over"))
+        while (!commandLine.Equals("stop"))
         {
-            string line = Console.ReadLine().Trim();
-            int[] args = new int[2];
-
-            if (command.Equals("add") ||
-                command.Equals("substract") ||
-                command.Equals("multiply"))
+            int[] arguments = new int[2];
+            string[] stringParams = commandLine.Split(' ');
+            if (stringParams.Length > 1)
             {
-                string[] stringParams = line.Split(ArgumentsDelimiter);
-                args[0] = int.Parse(stringParams[0]);
-                args[1] = int.Parse(stringParams[1]);
-
-                PerformAction(array, command, args);
+                arguments[0] = int.Parse(stringParams[1]);
+                arguments[1] = int.Parse(stringParams[2]);
             }
-
-            PerformAction(array, command, args);
-
-            PrintArray(array);
-            Console.WriteLine('\n');
-
-            command = Console.ReadLine();
+            numbers = PerformAction(numbers, stringParams[0], arguments);
+            ArrayWriteLine(numbers);
+            commandLine = Console.ReadLine();
         }
     }
 
-    static void PerformAction(long[] arr, string action, int[] args)
+    static long[] PerformAction(long[] nums, string action, int[] args)
     {
-        long[] array = arr.Clone() as long[];
-        int pos = args[0];
+        int index = args[0] - 1;
         int value = args[1];
 
         switch (action)
         {
             case "multiply":
-                array[pos] *= value;
+                nums[index] *= value;
                 break;
             case "add":
-                array[pos] += value;
+                nums[index] += value;
                 break;
             case "subtract":
-                array[pos] -= value;
+                nums[index] -= value;
                 break;
             case "lshift":
-                ArrayShiftLeft(array);
+                nums = ShiftElementsLeft(nums);
                 break;
             case "rshift":
-                ArrayShiftRight(array);
+                nums = ShiftElementsRight(nums);
                 break;
         }
+        return nums;
     }
 
-    private static void ArrayShiftRight(long[] array)
+    private static long[] ShiftElementsRight(long[] array)
     {
+        long lastElement = array[array.Length - 1];
         for (int i = array.Length - 1; i >= 1; i--)
         {
             array[i] = array[i - 1];
         }
+        array[0] = lastElement;
+        return array;
     }
 
-    private static void ArrayShiftLeft(long[] array)
+    private static long[] ShiftElementsLeft(long[] array)
     {
+        long firstElement = array[0];
         for (int i = 0; i < array.Length - 1; i++)
         {
             array[i] = array[i + 1];
         }
+        array[array.Length - 1] = firstElement;
+        return array;
     }
 
-    private static void PrintArray(long[] array)
+    private static void ArrayWriteLine(long[] array)
     {
         for (int i = 0; i < array.Length; i++)
         {
-            Console.WriteLine(array[i] + " ");
+            Console.Write(array[i] + " ");
         }
+        Console.WriteLine();
     }
 }
