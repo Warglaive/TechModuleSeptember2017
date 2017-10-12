@@ -24,7 +24,7 @@ namespace _01.Largest_Common_End
                     {
                         leftToRightCounter++;
                     }
-                    i = j;
+                    i++;
                 }
             }
         }
