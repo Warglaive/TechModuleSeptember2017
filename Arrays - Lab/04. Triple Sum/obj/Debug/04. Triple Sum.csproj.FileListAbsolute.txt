@@ -1,0 +1,5 @@
+E:\VisualStudio2017PROJECTS\TechModuleSeptember2017\Arrays - Lab\04. Triple Sum\bin\Debug\_04.Triple_Sum.exe.config
+E:\VisualStudio2017PROJECTS\TechModuleSeptember2017\Arrays - Lab\04. Triple Sum\bin\Debug\_04.Triple_Sum.exe
+E:\VisualStudio2017PROJECTS\TechModuleSeptember2017\Arrays - Lab\04. Triple Sum\bin\Debug\_04.Triple_Sum.pdb
+E:\VisualStudio2017PROJECTS\TechModuleSeptember2017\Arrays - Lab\04. Triple Sum\obj\Debug\_04.Triple_Sum.exe
+E:\VisualStudio2017PROJECTS\TechModuleSeptember2017\Arrays - Lab\04. Triple Sum\obj\Debug\_04.Triple_Sum.pdb
