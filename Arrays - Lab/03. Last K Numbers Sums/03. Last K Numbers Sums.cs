@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace _03.Last_K_Numbers_Sums
+namespace _02LastKNumberSum
 {
-    public class Program
+    class LastKNumberSum
     {
-        public static void Main()
+        static void Main(string[] args)
         {
-            var n = int.Parse(Console.ReadLine());
-            var k = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            int k = int.Parse(Console.ReadLine());
+            long[] arr = new long[n];
+            arr[0] = 1;
+            for (int current = 1; current < arr.Length; current++)
+            {
+                int start = Math.Max(0, current - k);
+                int end = current - 1;
+                long sum = 0;
+                for (int prev = start; prev <= end; prev++)
+                {
+                    sum += arr[prev];
+                }
+                arr[current] = sum;
+            }
+            Console.WriteLine(string.Join(" ",arr));
         }
     }
 }
