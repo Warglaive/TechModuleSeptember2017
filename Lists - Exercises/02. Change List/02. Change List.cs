@@ -66,7 +66,7 @@ namespace _02.Change_List
 
         public static void Delete(int element, List<int> input)
         {
-            for (int i = 0; i < input.Count - 1; i++)
+            for (int i = 0; i <= input.Count - 1; i++)
             {
                 if (input[i].Equals(element))
                 {
