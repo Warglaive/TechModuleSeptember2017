@@ -1,37 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _07.Bomb_Numbers
+class Program
 {
-    public class Program
+    static void Main()
     {
-        public static void Main()//delete special number + delete special number - power and special number + power index
+        List<int> seuqnce = Console.ReadLine().Split().Select(int.Parse).ToList();
+
+        string[] intpit = Console.ReadLine().Split();
+
+        int number = int.Parse(intpit[0]);
+        int power = int.Parse(intpit[1]);
+
+        for (int i = 0; i < seuqnce.Count; i++)
         {
-            var input = Console.ReadLine().Split().Select(int.Parse).ToList();
-            var result = new List<int>(input);
-            var specialNumberAndPower = Console.ReadLine().Split().Select(int.Parse).ToList();
-            var specialNumber = specialNumberAndPower[0];
-            var power = specialNumberAndPower[1];
-
-            for (int i = 0; i < result.Count - 1; i++)
+            if (seuqnce[i] == number)
             {
-                if (input[i].Equals(specialNumber))
-                {
-                    for (int j = i - power; j <= (i + power) - 1; j++)//good for now(1, 2 tests)
-                    {
-                        if (i - power < 3 || i + power > 3)
-                        {
-                            break;
-                        }
-                        result.RemoveAt(j);
-                    }
+                int left = Math.Max(i - power, 0);
 
-                }
+                int right = Math.Min(i + power, seuqnce.Count - 1);
+
+                int lenght = right - left + 1;
+                seuqnce.RemoveRange(left, lenght);
+                i = 0;
             }
-            Console.WriteLine(result.Sum());
         }
+        Console.WriteLine(seuqnce.Sum());
     }
 }
