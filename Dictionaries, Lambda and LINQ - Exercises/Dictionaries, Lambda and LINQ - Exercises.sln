@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fix Emails", "04. Fix E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Hands of Cards", "05. Hands of Cards\05. Hands of Cards.csproj", "{2CBC4225-EE71-445D-9182-C4108AF29CCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. User Logs", "06. User Logs\06. User Logs.csproj", "{B79F8D52-5E19-4AB5-89DB-249E33651616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Population Counter", "07. Population Counter\07. Population Counter.csproj", "{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2CBC4225-EE71-445D-9182-C4108AF29CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBC4225-EE71-445D-9182-C4108AF29CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBC4225-EE71-445D-9182-C4108AF29CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79F8D52-5E19-4AB5-89DB-249E33651616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79F8D52-5E19-4AB5-89DB-249E33651616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79F8D52-5E19-4AB5-89DB-249E33651616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79F8D52-5E19-4AB5-89DB-249E33651616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
