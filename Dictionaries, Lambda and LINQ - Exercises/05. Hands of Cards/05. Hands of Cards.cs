@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _05.Hands_of_Cards
 {
-    public class Program
+    public static class Program
     {
         public static void Main()
         {
