@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _07.Population_Counter
 {
@@ -34,7 +32,7 @@ namespace _07.Population_Counter
             foreach (var KvP in sorted)
             {
                 Console.WriteLine($"{KvP.Key} (total population: {KvP.Value.Values.Sum()})");
-                foreach (var cityAndPop in KvP.Value.OrderByDescending(x=>x.Value))
+                foreach (var cityAndPop in KvP.Value.OrderByDescending(x => x.Value))
                 {
                     Console.WriteLine($"=>{cityAndPop.Key}: {cityAndPop.Value}");
                 }
