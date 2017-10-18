@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. User Logs", "06. User L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Population Counter", "07. Population Counter\07. Population Counter.csproj", "{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Logs Aggregator", "08. Logs Aggregator\08. Logs Aggregator.csproj", "{8254F156-3812-41C7-B1D2-AEBDFA050447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Legendary Farming", "09. Legendary Farming\09. Legendary Farming.csproj", "{F0B494FE-632E-4E2E-A05E-67CD953AAA5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DA1B40A-C714-4B3C-9F30-BFA3EC670A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8254F156-3812-41C7-B1D2-AEBDFA050447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8254F156-3812-41C7-B1D2-AEBDFA050447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8254F156-3812-41C7-B1D2-AEBDFA050447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8254F156-3812-41C7-B1D2-AEBDFA050447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B494FE-632E-4E2E-A05E-67CD953AAA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B494FE-632E-4E2E-A05E-67CD953AAA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B494FE-632E-4E2E-A05E-67CD953AAA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B494FE-632E-4E2E-A05E-67CD953AAA5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
