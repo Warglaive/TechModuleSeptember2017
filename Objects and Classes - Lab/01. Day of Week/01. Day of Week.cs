@@ -10,7 +10,7 @@ namespace _01.Day_of_Week
     {
         public static void Main()
         {
-
+        
         }
     }
 }
