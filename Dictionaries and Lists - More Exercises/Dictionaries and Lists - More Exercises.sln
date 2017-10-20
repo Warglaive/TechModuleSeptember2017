@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sort Times", "01. Sort Times\01. Sort Times.csproj", "{3B970548-AB00-4B1E-B269-8CE3B0941D3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Odd Filter", "02. Odd Filter\02. Odd Filter.csproj", "{7D48D1CA-3A0C-4D5F-BE2D-02846A9EA4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Immune System", "03. Immune System\03. Immune System.csproj", "{7F962F34-4B5F-46A9-A68B-9B1402C2BA65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7D48D1CA-3A0C-4D5F-BE2D-02846A9EA4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D48D1CA-3A0C-4D5F-BE2D-02846A9EA4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D48D1CA-3A0C-4D5F-BE2D-02846A9EA4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F962F34-4B5F-46A9-A68B-9B1402C2BA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F962F34-4B5F-46A9-A68B-9B1402C2BA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F962F34-4B5F-46A9-A68B-9B1402C2BA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F962F34-4B5F-46A9-A68B-9B1402C2BA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
