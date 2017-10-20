@@ -20,12 +20,12 @@ namespace _02.Odd_Filter
         {
             for (int i = 0; i <= input.Count - 1; i++)
             {
-                var min = Math.Ceiling(input.Average());
-                if (input[i] > min)
+                var average = Math.Ceiling(input.Average());
+                if (input[i] > average)
                 {
                     input[i] += 1;
                 }
-                else if (input[i] <= min)
+                else if (input[i] <= average)
                 {
                     input[i] -= 1;
                 }
