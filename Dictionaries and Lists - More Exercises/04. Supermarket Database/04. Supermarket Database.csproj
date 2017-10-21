@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D48D1CA-3A0C-4D5F-BE2D-02846A9EA4A3}</ProjectGuid>
+    <ProjectGuid>{233115EF-F662-4AA9-8563-C8E3A403F3DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02.Odd_Filter</RootNamespace>
-    <AssemblyName>_02.Odd_Filter</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>_04.Supermarket_Database</RootNamespace>
+    <AssemblyName>_04.Supermarket_Database</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02. Odd Filter.cs" />
+    <Compile Include="04. Supermarket Database.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
