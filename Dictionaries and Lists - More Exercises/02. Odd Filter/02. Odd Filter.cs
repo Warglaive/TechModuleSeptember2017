@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _02.Odd_Filter
 {
@@ -16,11 +14,11 @@ namespace _02.Odd_Filter
             Console.WriteLine(string.Join(" ", input));
         }
 
-        private static List<int> Convert(List<int> input)
+        private static void Convert(List<int> input)
         {
+            var average = Math.Ceiling(input.Average());
             for (int i = 0; i <= input.Count - 1; i++)
             {
-                var average = Math.Ceiling(input.Average());
                 if (input[i] > average)
                 {
                     input[i] += 1;
@@ -30,20 +28,18 @@ namespace _02.Odd_Filter
                     input[i] -= 1;
                 }
             }
-            return input;
         }
 
-        public static List<int> RemoveOddNumbers(List<int> input)
+        public static void RemoveOddNumbers(List<int> input)
         {
-            for (int i = 0; i <= input.Count - 1; i++)
+            for (int i = input.Count - 1; i >= 0; i--)
             {
                 if (input[i] % 2 != 0)
                 {
                     input.Remove(input[i]);
-                    i = 0;
+                    i = input.Count;
                 }
             }
-            return input;
         }
     }
 }
