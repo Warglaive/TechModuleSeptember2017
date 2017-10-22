@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Supermarket Database", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Parking Validation", "05. Parking Validation\05. Parking Validation.csproj", "{27DA4468-4EF1-498D-AF11-43E028E49826}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Byte Flip", "06. Byte Flip\06. Byte Flip.csproj", "{ADEFBCD9-C137-4C3F-846F-EBDB52EA5157}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{27DA4468-4EF1-498D-AF11-43E028E49826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27DA4468-4EF1-498D-AF11-43E028E49826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27DA4468-4EF1-498D-AF11-43E028E49826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEFBCD9-C137-4C3F-846F-EBDB52EA5157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEFBCD9-C137-4C3F-846F-EBDB52EA5157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEFBCD9-C137-4C3F-846F-EBDB52EA5157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEFBCD9-C137-4C3F-846F-EBDB52EA5157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
