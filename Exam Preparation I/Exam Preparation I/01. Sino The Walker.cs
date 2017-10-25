@@ -2,21 +2,17 @@
 
 namespace TimeDifference
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             var input = Console.ReadLine();
             DateTime startTime = DateTime.Parse(input);
-
-            var steps = double.Parse(Console.ReadLine()) % 86400; // 1 day = 86400 secs
-            var secondsPerStep = double.Parse(Console.ReadLine()) % 86400;
+            var steps = double.Parse(Console.ReadLine()) % 86400; //ako vhoda e >= 1 den
+            var secondsPerStep = double.Parse(Console.ReadLine());
             var allTimeInSeconds = (steps * secondsPerStep);
-
             TimeSpan spanTime = TimeSpan.FromSeconds(allTimeInSeconds);
-
             var result = startTime + spanTime;
-
             Console.WriteLine("Time Arrival: {0:HH:mm:ss}", result);
         }
     }
