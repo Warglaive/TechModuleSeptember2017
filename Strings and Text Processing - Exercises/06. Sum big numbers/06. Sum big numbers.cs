@@ -7,12 +7,9 @@ public class SumBigNumbers
     {
         var firstNum = Console.ReadLine();
         var secondNum = Console.ReadLine();
-
         var maxLen = Math.Max(firstNum.Length, secondNum.Length);
-
         firstNum = firstNum.PadLeft(maxLen + 1, '0');
         secondNum = secondNum.PadLeft(maxLen + 1, '0');
-
         var firstDigits = firstNum.Select(x => int.Parse(x.ToString())).ToArray();
         var secondDigits = secondNum.Select(x => int.Parse(x.ToString())).ToArray();
         var sum = new int[firstNum.Length];
@@ -32,9 +29,7 @@ public class SumBigNumbers
                 currentSum = 0;
             }
         }
-
         var result = string.Join(string.Empty, sum.SkipWhile(x => x == 0));
-
         Console.WriteLine(result);
     }
 }
