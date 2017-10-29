@@ -36,7 +36,7 @@ namespace _06.Replace_a_Tag
                 }
                 if (!isMatch)
                 {
-                   totalResult.Add(input);
+                    totalResult.Add(input);
                 }
                 input = Console.ReadLine();
             }
