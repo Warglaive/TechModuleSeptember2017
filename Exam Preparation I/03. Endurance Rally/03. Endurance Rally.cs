@@ -8,8 +8,8 @@ namespace _03.Endurance_Rally
         public static void Main()
         {
             var drivers = Console.ReadLine().Split(' ').ToList();
-            var zones = Console.ReadLine().Split().Select(double.Parse).ToList();
-            var checkPointIndexes = Console.ReadLine().Split().Select(int.Parse).ToList();
+            var zones = Console.ReadLine().Split(' ').Select(decimal.Parse).ToList();
+            var checkPointIndexes = Console.ReadLine().Split(' ').Select(long.Parse).ToList();
             foreach (var driver in drivers)
             {
                 var counter = 0;
@@ -34,7 +34,7 @@ namespace _03.Endurance_Rally
                     {
                         startFuel -= Convert.ToDouble(zones[index]);
                     }
-                    if (startFuel < 1)
+                    if (startFuel <= 0)
                     {
                         Console.WriteLine($"{driver} - reached {index}");
                         break;
