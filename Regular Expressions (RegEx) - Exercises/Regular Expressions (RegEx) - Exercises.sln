@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Camera View", "03. Came
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Weather", "04. Weather\04. Weather.csproj", "{2DE03C83-6BAE-45B9-AEFF-3EF13F0F63A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Key Replacer", "05. Key Replacer\05. Key Replacer.csproj", "{EEF3AEA9-C75A-40E9-A7C3-4ED1471E257B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{A865C48D-9BA6-4F21-A39A-0D3D3F772BCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{2DE03C83-6BAE-45B9-AEFF-3EF13F0F63A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE03C83-6BAE-45B9-AEFF-3EF13F0F63A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE03C83-6BAE-45B9-AEFF-3EF13F0F63A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF3AEA9-C75A-40E9-A7C3-4ED1471E257B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF3AEA9-C75A-40E9-A7C3-4ED1471E257B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF3AEA9-C75A-40E9-A7C3-4ED1471E257B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF3AEA9-C75A-40E9-A7C3-4ED1471E257B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A865C48D-9BA6-4F21-A39A-0D3D3F772BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A865C48D-9BA6-4F21-A39A-0D3D3F772BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A865C48D-9BA6-4F21-A39A-0D3D3F772BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A865C48D-9BA6-4F21-A39A-0D3D3F772BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
