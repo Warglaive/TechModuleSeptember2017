@@ -17,7 +17,7 @@ namespace _03.Nether_Realms
             foreach (var demon in input)
             {//Health
                 long demonHealth = 0;
-                var healthPattern = @"[A-Za-z]";
+                var healthPattern = @"[^0-9+\-*\/ .]";
                 foreach (Match lettersMatch in Regex.Matches(demon, healthPattern))
                 {
                     demonHealth += Convert.ToChar(lettersMatch.Value);
