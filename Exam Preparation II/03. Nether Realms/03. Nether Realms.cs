@@ -25,7 +25,7 @@ namespace _03.Nether_Realms
                 //
                 //Damage
                 var demonDamage = 0m;
-                var damagePattern = @"\-?[0-9]\.?[0-9]?";
+                var damagePattern = @"(-?\d+(?:\.?\d+)?)";
                 foreach (Match letter in Regex.Matches(demon, damagePattern))//take num
                 {
                     demonDamage += Convert.ToDecimal(letter.Value);
