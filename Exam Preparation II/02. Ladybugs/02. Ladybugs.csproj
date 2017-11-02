@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D52C6DE-3E58-4374-93A7-F0C0FC602F25}</ProjectGuid>
+    <ProjectGuid>{FA4D262A-B52E-468A-BB33-29196824D991}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Charity_Marathon</RootNamespace>
-    <AssemblyName>_01.Charity_Marathon</AssemblyName>
+    <RootNamespace>_02.Ladybugs</RootNamespace>
+    <AssemblyName>_02.Ladybugs</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01. Charity Marathon.cs" />
+    <Compile Include="02. Ladybugs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
