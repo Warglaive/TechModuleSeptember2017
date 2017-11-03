@@ -22,6 +22,17 @@ namespace _04.Roli_The_Coder
                 }
                 var oldParticipants = input.Skip(2).ToList();
                 var currentParticipants = new HashSet<string>(oldParticipants);
+
+                // Participants valid check
+                foreach (var participant in oldParticipants)
+                {
+                    if (participant[0] != '@')
+                    {
+                        currentParticipants.Remove(participant);
+                    }
+                }
+
+                //
                 if (dictionary.ContainsKey(ID))
                 {
                     if (dictionary[ID].Keys.Contains(eventName))
