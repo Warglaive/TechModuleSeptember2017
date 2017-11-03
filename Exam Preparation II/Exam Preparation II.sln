@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ladybugs", "02. Ladybug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Nether Realms", "03. Nether Realms\03. Nether Realms.csproj", "{3B887390-2E0A-4A29-BA7E-262A25F9E2A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Roli The Coder", "04. Roli The Coder\04. Roli The Coder.csproj", "{8D27FED7-50BC-4BDE-A663-984208A34B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3B887390-2E0A-4A29-BA7E-262A25F9E2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B887390-2E0A-4A29-BA7E-262A25F9E2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B887390-2E0A-4A29-BA7E-262A25F9E2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D27FED7-50BC-4BDE-A663-984208A34B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D27FED7-50BC-4BDE-A663-984208A34B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D27FED7-50BC-4BDE-A663-984208A34B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D27FED7-50BC-4BDE-A663-984208A34B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
