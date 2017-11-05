@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Management.Instrumentation;
-using System.Text;
-using System.Threading.Tasks;
 using System.Numerics;
 
 namespace _01.Anonymous_Downsite
 {
-    class Program
+   public class Program
     {
-        static void Main()
+       public static void Main()
         {
             var websiteNum = int.Parse(Console.ReadLine());
             var securityKey = BigInteger.Parse(Console.ReadLine());

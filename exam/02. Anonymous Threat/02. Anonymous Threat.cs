@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace _02.Anonymous_Threat
 {
-    class Program
+   public class Program
     {
         public static void Main()
         {
@@ -45,6 +45,5 @@ namespace _02.Anonymous_Threat
             input.Insert(0, currentWord);
             return result;
         }
-
     }
 }
